@@ -1,12 +1,14 @@
-// CodeSandbox.js
+import Kitchen from "./Kitchen";
+import LivingRoom from "./LivingRoom";
 
-function CodeSandbox(props) {
+function FloorPlan(props) {
   return (
     <div>
-      <h1>CodeSandbox</h1>
+      <LivingRoom/>
+      <Kitchen/>
     </div>
   );
 }
 
 // Must export the component's function (or class)
-export default CodeSandbox;
+export default FloorPlan;
