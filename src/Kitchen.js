@@ -5,8 +5,12 @@ function Kitchen(props) {
   return (
     <div className='kitchen'>
       <h3>Kitchen</h3>
-        <Sink/>
-        <Oven/>
+        <span className="sink">
+          <Sink/>
+        </span>
+        <span className="oven">
+          <Oven/>
+        </span>
     </div>
   );
 }

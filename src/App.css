@@ -1,11 +1,15 @@
-div {
+/* div {
   border: 1px solid grey;
   margin: 5px;
   padding: 5px;
-}
+} */
 
 .floorplan {
   display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: auto;
+  grid-auto-rows: minmax(200px, max-content);
+  
 }
 
 .kitchen {
