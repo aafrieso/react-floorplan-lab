@@ -1,7 +1,7 @@
 function Bath(props) {
   return (
     <div>
-      <h1>Bath</h1>
+      {props.size} Bath
     </div>
   );
 }

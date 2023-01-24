@@ -1,7 +1,7 @@
 function Bedroom(props) {
   return (
     <div>
-      <h1>Bedroom</h1>
+      Bedroom #{props.bedNum}
     </div>
   );
 }
