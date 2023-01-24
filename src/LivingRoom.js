@@ -1,7 +1,7 @@
 function LivingRoom(props) {
   return (
     <div>
-      <h3>LivingRoom</h3>
+      <h3 className='livingroom'>LivingRoom</h3>
     </div>
   );
 }
