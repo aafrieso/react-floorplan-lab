@@ -3,3 +3,32 @@ div {
   margin: 5px;
   padding: 5px;
 }
+
+.floorplan {
+  display: grid;
+}
+
+.kitchen {
+  background-color: green;
+}
+
+.oven {
+  background-color: lightgreen;
+}
+
+.sink {
+  background-color: olive;
+}
+
+.livingroom {
+  background-color: orange;
+}
+
+#bath-Half {
+  background-color: yellow;
+}
+
+#bath-Full {
+  background-color: red;
+}
+

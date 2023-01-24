@@ -1,7 +1,7 @@
 function Bath(props) {
   return (
-    <div>
-      <h3 className='bath' id={`bath-${props.size}`}>{props.size} Bath</h3>
+    <div className='bath' id={`bath-${props.size}`}>
+      <h3>{props.size} Bath</h3>
     </div>
   );
 }

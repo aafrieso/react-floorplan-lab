@@ -7,8 +7,6 @@ function App() {
       <FloorPlan/>
     </div>
   )
-    
-  
 }
 
 export default App;
