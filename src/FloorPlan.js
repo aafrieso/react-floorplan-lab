@@ -5,7 +5,7 @@ import Bedroom from "./Bedroom";
 
 function FloorPlan(props) {
   return (
-    <div>
+    <>
       <LivingRoom/>
       <Kitchen/>
       <Bath size="Half"/>
@@ -13,7 +13,7 @@ function FloorPlan(props) {
       <Bath size="Full"/>
       <Bedroom bedNum={2}/>
       <Bedroom bedNum={3}/>
-    </div>
+    </>
   );
 }
 
